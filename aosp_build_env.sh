@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# Copyright (c) 2023 Gopal Dhanve
+# https://github.com/gopaldhanve2003
+# This script was created with the assistance of Google Bard.
+# SPDX-License-Identifier: GPL-3.0-only
+
 echo "Let's start setup"
 
 #Update & Upgrade Packages
