@@ -15,7 +15,8 @@ echo "Package updates completed."
 # Install Essential Stuff
 echo -e "Installing Essential Stuff"
 sudo apt install -y git-core gnupg flex bison build-essential zip curl zlib1g-dev libc6-dev-i386 libncurses5 x11proto-core-dev libx11-dev lib32z1-dev libgl1-mesa-dev libxml2-utils xsltproc unzip fontconfig
-sudo apt install -y python3 python-is-python3 rsync ssh tmate
+sudo apt install -y python3 python-is-python3 python3-pip python3-dev
+sudo apt install -y libssl-dev libtinfo5 libxml-simple-perl git-lfs patchelf apktool rsync ssh tmate
 echo "Essential stuff are installed successfully."
 
 # Download and Install Repo
